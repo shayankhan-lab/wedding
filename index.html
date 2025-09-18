@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobia Saeeda & Irfan Khan — Wedding Invitation</title>
+
+  <!-- Premium serif + clean sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-image"></div>
+  </div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="hero" role="banner">
+    <div class="big-welcome" aria-hidden="true">
+      <h2>Welcome, dear guests</h2>
+    </div>
+
+    <div class="hero-card" data-tilt>
+      <div class="crest" aria-hidden="true">Wedding Invitation</div>
+
+      <h1 class="names">
+        Sobia Saeeda <span class="amp">&amp;</span> Irfan Khan
+      </h1>
+
+      <p class="welcome">
+        Dearest guests, with hearts full of love, we warmly invite you to join us as we begin our forever. Your presence will make our celebrations complete. — Sobia &amp; Irfan
+      </p>
+
+      <p class="date-line">25–26 November</p>
+
+      <div class="timeline" aria-label="Journey from love to marriage">
+        <div class="step" data-tilt>
+          <div class="emoji" aria-hidden="true">❤️</div>
+          <div class="label">Love</div>
+          <div>Two hearts, one rhythm</div>
+        </div>
+        <div class="step" data-tilt>
+          <div class="emoji" aria-hidden="true">💍</div>
+          <div class="label">Engagement</div>
+          <div>Promises made</div>
+        </div>
+        <div class="step" data-tilt>
+          <div class="emoji" aria-hidden="true">∞</div>
+          <div class="label">Marriage</div>
+          <div>Forever begins</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" role="main">
+    <!-- Love & Engagement Story -->
+    <section class="grid" aria-labelledby="story-title">
+      <article class="card" data-tilt>
+        <span class="pill" aria-hidden="true"><span class="dot"></span> Our story</span>
+        <h3 id="story-title">Love & Engagement</h3>
+
+        <div class="story">
+          <div>
+            <p>
+              What began as a quiet friendship became a steady warmth—little notes, long walks, and a feeling that stayed.
+              On a soft evening, a promise was made: to be each other’s home in all seasons.
+            </p>
+            <p>
+              Our engagement was gentle and joy-filled—families gathered, duas whispered, hearts certain. Now we invite you
+              to witness the next step of that promise, as we weave our love into marriage.
+            </p>
+
+            <div class="grid story-grid">
+              <div class="card quote-card" data-tilt>
+                <strong class="quote-strong">Sobia about Irfan:</strong>
+                <p class="quote-text">
+                  He is patient and kind—the calm to my curve, the steady hand that holds mine when words are few.
+                </p>
+              </div>
+              <div class="card quote-card" data-tilt>
+                <strong class="quote-strong">Irfan about Sobia:</strong>
+                <p class="quote-text">
+                  She is grace and light—the laughter I wait for, the compass that points me to what matters most.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI couple images gallery -->
+          <div>
+            <div class="gallery">
+              <!-- Replace these with your AI-generated couple images -->
+              <figure class="md" data-tilt>
+                <img src="Copilot_20250916_005908.png" alt="Couple at sunset holding hands">
+                <figcaption>Sunset, a quiet promise.</figcaption>
+              </figure>
+              <figure class="sm" data-tilt>
+                <img src="Copilot_20250916_005644.png" alt="Elegant portrait of couple">
+                <figcaption>Together, effortlessly.</figcaption>
+              </figure>
+              
+            
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Event Sections (no venue addresses) -->
+    <section class="grid events-section" id="events" aria-labelledby="events-title">
+      <h3 class="sr-only" id="events-title">Events</h3>
+
+      <!-- Nikah -->
+      <section class="card third" data-tilt aria-labelledby="nikah-title">
+        <span class="pill" aria-hidden="true"><span class="dot"></span> Nikah</span>
+        <h3 id="nikah-title">Nikah</h3>
+        <div class="meta">
+          <div><strong>Date:</strong> 12 November</div>
+          <div><strong>Time:</strong> 5:00 PM</div>
+        </div>
+        <div class="cta">
+          <button class="btn primary" onclick="scrollToTop()">View Details</button>
+          <button class="btn ghost" onclick="addCalendar('Nikah','2025-11-25T17:00:00')">Add to Calendar</button>
+        </div>
+      </section>
+
+      <!-- Mehendi -->
+      <section class="card third" data-tilt aria-labelledby="mehendi-title">
+        <span class="pill" aria-hidden="true"><span class="dot"></span> Mehendi</span>
+        <h3 id="mehendi-title">Mehendi</h3>
+        <div class="meta">
+          <div><strong>Date:</strong> 12 November</div>
+          <div><strong>Time:</strong> 8:00 PM</div>
+        </div>
+        <div class="cta">
+          <button class="btn primary" onclick="scrollToTop()">View Details</button>
+          <button class="btn ghost" onclick="addCalendar('Mehendi','2025-11-25T20:00:00')">Add to Calendar</button>
+        </div>
+      </section>
+
+      <!-- Barat -->
+      <section class="card third" data-tilt aria-labelledby="barat-title">
+        <span class="pill" aria-hidden="true"><span class="dot"></span> Barat</span>
+        <h3 id="barat-title">Barat</h3>
+        <div class="meta">
+          <div><strong>Date:</strong> 13 November</div>
+          <div><strong>Time:</strong> 8:00 PM</div>
+        </div>
+        <div class="cta">
+          <button class="btn primary" onclick="scrollToTop()">View Details</button>
+          <button class="btn ghost" onclick="addCalendar('Barat','2025-11-26T20:00:00')">Add to Calendar</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!-- Footer: 3 sections -->
+  <footer role="contentinfo" aria-label="Closing sections">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Our story</h4>
+        <p>
+          From love to engagement, and now to marriage — thank you for blessing our journey with your prayers and presence.
+        </p>
+        <div class="signature">— Sobia Saeeda &amp; Irfan Khan</div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Schedule</h4>
+        <ul>
+          <li><strong>Nikah:</strong> 25 Nov, 4:00 PM</li>
+          <li><strong>Mehendi:</strong> 25 Nov, 7:00 PM</li>
+          <li><strong>Barat:</strong> 26 Nov, 8:00 PM</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>RSVP</h4>
+        <p>Please let us know if you’ll join us.</p>
+        <ul>
+          <li><a href="#!" onclick="openRSVP()">RSVP Online</a></li>
+          <li><a href="mailto:rsvp@example.com">rsvp@example.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightweight RSVP modal -->
+  <dialog id="rsvpDialog" class="rsvp-dialog">
+    <form method="dialog" class="rsvp-form">
+      <div class="rsvp-header">
+        <strong>RSVP</strong>
+      </div>
+      <div class="rsvp-body">
+        <label>
+          <span class="rsvp-label">Full name</span>
+          <input required name="name" class="rsvp-input">
+        </label>
+        <label>
+          <span class="rsvp-label">Guests</span>
+          <input type="number" min="1" max="10" value="1" name="guests" class="rsvp-input">
+        </label>
+        <label>
+          <span class="rsvp-label">Event</span>
+          <select name="event" class="rsvp-input">
+            <option>Nikah — 25 Nov, 5:00 PM</option>
+            <option>Mehendi — 25 Nov, 8:00 PM</option>
+            <option>Barat — 26 Nov, 8:00 PM</option>
+          </select>
+        </label>
+        <label>
+          <span class="rsvp-label">Message (optional)</span>
+          <textarea rows="3" name="msg" class="rsvp-input"></textarea>
+        </label>
+      </div>
+      <div class="rsvp-footer">
+        <button value="cancel" class="btn ghost">Close</button>
+        <button value="default" class="btn primary" onclick="submitRSVP(event)">Send RSVP</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script>
+    // Gentle parallax on the 2D background image (creates a 3D feel)
+    (function(){
+      const bg = document.querySelector('.bg-image');
+      let w = window.innerWidth, h = window.innerHeight;
+
+      function onMove(e){
+        const x = (e.clientX / w - 0.5) * 2; // -1 to 1
+        const y = (e.clientY / h - 0.5) * 2;
+        const tx = -x * 30;
+        const ty = -y * 30;
+        bg.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(1.03)`;
+      }
+      function onLeave(){ bg.style.transform = `translate3d(0,0,0)`; }
+
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseleave', onLeave);
+      window.addEventListener('resize', ()=>{ w = innerWidth; h = innerHeight; });
+    })();
+
+    // Subtle 3D tilt for cards and gallery images
+    (function(){
+      const tiltables = document.querySelectorAll('[data-tilt]');
+      tiltables.forEach(el=>{
+        let raf = null;
+        function tilt(e){
+          const b = el.getBoundingClientRect();
+          const x = (e.clientX - b.left) / b.width;
+          const y = (e.clientY - b.top) / b.height;
+          const rx = (0.5 - y) * 8;
+          const ry = (x - 0.5) * 10;
+          const tz = 18;
+          el.style.transform = `perspective(900px) translateZ(${tz}px) rotateX(${rx}deg) rotateY(${ry}deg)`;
+        }
+        function reset(){ el.style.transform = 'none'; }
+        el.addEventListener('mousemove', e=>{
+          if(raf) cancelAnimationFrame(raf);
+          raf = requestAnimationFrame(()=>tilt(e));
+        });
+        el.addEventListener('mouseleave', ()=>{
+          if(raf) cancelAnimationFrame(raf);
+          reset();
+        });
+      });
+    })();
+
+    // Scroll helper
+    function scrollToTop(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Lightweight "Add to Calendar" via downloadable ICS (no venue included)
+    function addCalendar(title, isoStart){
+      const start = new Date(isoStart);
+      const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+      function toICS(dt){
+        const pad = n => String(n).padStart(2,'0');
+        return dt.getUTCFullYear()
+          + pad(dt.getUTCMonth()+1)
+          + pad(dt.getUTCDate())
+          + 'T'
+          + pad(dt.getUTCHours())
+          + pad(dt.getUTCMinutes())
+          + '00Z';
+      }
+      const ics =
+`BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sobia&Irfan//Wedding//EN
+BEGIN:VEVENT
+UID:${Date.now()}@sobia-irfan
+DTSTAMP:${toICS(new Date())}
+DTSTART:${toICS(start)}
+DTEND:${toICS(end)}
+SUMMARY:${title} — Sobia & Irfan
+DESCRIPTION:With love, Sobia Saeeda & Irfan Khan
+END:VEVENT
+END:VCALENDAR`.replace(/\n/g, '\r\n');
+
+      const blob = new Blob([ics], {type: 'text/calendar'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${title.replace(/\s+/g,'_')}_Sobia_Irfan.ics`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    // RSVP modal logic
+    const dlg = document.getElementById('rsvpDialog');
+    function openRSVP(){
+      if(typeof dlg.showModal === 'function'){ dlg.showModal(); }
+      else alert('Please email your RSVP to rsvp@example.com');
+    }
+    function submitRSVP(e){
+      e.preventDefault();
+      // You can hook this to your backend later
+      alert('Thank you! Your RSVP has been received.');
+      dlg.close();
+    }
+  </script>
+</body>
+</html>
